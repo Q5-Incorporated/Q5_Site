@@ -438,7 +438,14 @@
 			</div>
 
 			<div class="row align-center copyright">
-					<div class="col-sm-12"><p>Copyright &copy; 2004 - {{ site.time | date: '%Y' }} Q<sup>5</sup> Incorporated</a></p></div>
+					<div class="col-sm-12"><p>Copyright &copy; 2004 - 
+						<script language="javascript" type="text/javascript">
+							<!--
+								var now = new Date();
+								now.format("yyyy");
+							// -->
+						</script> Q<sup>5</sup> Incorporated</p>
+					</div>
 			</div>
 		</div>
 
