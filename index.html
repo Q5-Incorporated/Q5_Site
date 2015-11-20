@@ -441,9 +441,10 @@
 					<div class="col-sm-12"><p>Copyright &copy; 2004 - 
 						<script type="text/javascript">
 							<!--
-								var dateFormat;
-								dateFormat(new Date(),"yyyy");
-							// -->
+								var dateFormat = new Date()
+								var year = dateFormat.getFullYear()
+								document.write(year)
+							//-->
 						</script> Q<sup>5</sup> Incorporated</p>
 					</div>
 			</div>
